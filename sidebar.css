@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    background-color: rgb(87, 87, 87);
+}
+.navbar2{
+    width: max-content;
+    height: auto;
+    position: absolute;
+}
+.navbar2 ul{
+    list-style-type: none;
+    background-color: rgb(68, 68, 68);
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+.navbar2 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-family:sans-serif
+}
+.navbar2 a:hover{
+    transition: 1000ms;
+    background-color: white;
+    color: black;
+}
+.navbar2 a:not(:hover){
+    transition: 1000ms;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 160px;
+    margin-top: 15px;
+}
+.valotext{
+    margin-top: -40px;
+}
+.valohover :hover{
+    .icon{
+    transition-duration: 1000ms;
+    opacity: 0;
+    }
+}
+.valohover :not(:hover){
+    .icon{
+    transition-duration: 1000ms;
+    opacity: 1;
+    }
+}
+.abyssselectimg{
+    padding-top: 50px;
+    margin-left: 500px;
+}
+.abyssimg{
+    border-radius: 15px;
+    width: 320px;
+    height: auto;
+    z-index: 1;
+}
+.abyssimg:hover{
+    transition-duration: 750ms;
+    width: 640px;
+    height: auto;
+}
+.abyssselectimg :hover{
+    .abyssselecttext{
+        transition-duration: 750ms;
+        margin-left: 500px;
+        margin-top: -90px;
+    }
+}
+.abyssselectlink{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    height: min-content;
+    width: min-content;
+    font-size: 48px;
+    text-decoration: none;
+}
+.abyssselecttext{
+    margin-left: 15px;
+    margin-top: -180px;
+    z-index: -1;
+}
