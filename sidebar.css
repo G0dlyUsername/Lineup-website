@@ -69,7 +69,7 @@ body{
     width: 640px;
     height: auto;
 }
-.abyssselectimg :hover{
+.abhover :hover{
     .abyssselecttext{
         transition-duration: 750ms;
         margin-left: 500px;
