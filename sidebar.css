@@ -90,3 +90,8 @@ body{
     margin-top: -180px;
     z-index: -1;
 }
+.abyssboth{
+    transition-duration: 750ms;
+    width: 640px;
+    height: auto;
+}
