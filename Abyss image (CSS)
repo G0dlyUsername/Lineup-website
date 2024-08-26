@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(68, 68, 68);
+}
+.abysscontainer{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.abyssselectlink{
+    text-decoration: none;
+}
+.abyssimg{
+    display: flex;
+    border-radius: 15px;
+}
+.abyssselecttext{
+    position: relative;
+    top: -120px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    pointer-events: none;
+}
+.abysscontainer :hover{
+    .abyssselecttext{
+        transition: linear;
+        transition-duration: 250ms;
+        top: -150px;
+    }
+}
+.abysscontainer :not(:hover){
+    .abyssselecttext{
+        transition: linear;
+        transition-duration: 250ms;
+        top: -120px;
+    }
+}
+.abysscontainer :hover{
+    .abyssimg{
+        transition-duration: 250ms;
+        scale: 1.2;
+    }
+}
