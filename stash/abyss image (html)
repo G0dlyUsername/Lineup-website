@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <link rel="stylesheet" href="test{.css">
+    <link rel="stylesheet" href="styles/test{.css">
 </head>
 <body>
     <div class="abysscontainer">
         <div class="abysscontainerstyle">
             <a href="abyss.html" class="abyssselectlink">
-                <img src="abyss.jpg" class="abyssimg abyssboth">
+                <img src="images/abyss.jpg" class="abyssimg abyssboth">
             </a>
             <p class="abyssselecttext abyssboth">Abyss</p>
         </div>
