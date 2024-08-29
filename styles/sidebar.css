@@ -131,11 +131,10 @@ body{
 
 /* Column background colors for clarity */
 .column-left {
-    background-color: #f8b400;
+    width: max-content;
 }
 
 .column-right {
-    background-color: #0096c7;
     color: white;
 }
 
