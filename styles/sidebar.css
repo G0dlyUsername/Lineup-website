@@ -72,10 +72,11 @@ body{
     height: auto;
 }
 .abyssselectimg :hover{
+    .abyssselecttext{
         transition-duration: 750ms;
         margin-left: 500px;
         margin-top: -90px;
-
+    }
 }
 .abyssselectlink{
     color: white;
