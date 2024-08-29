@@ -5,7 +5,7 @@ body{
 .navbar2{
     width: max-content;
     height: auto;
-    position: absolute;
+    float: left;
 }
 .navbar2 ul{
     list-style-type: none;
@@ -107,4 +107,41 @@ body{
 
 .zoom-image:hover img {
     transform: scale(1.1); /* Zoom in the image */
+}
+
+
+
+/* Container for the two columns */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual column styles */
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Column background colors for clarity */
+.column-left {
+    background-color: #f8b400;
+}
+
+.column-right {
+    background-color: #0096c7;
+    color: white;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
