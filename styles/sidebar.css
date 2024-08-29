@@ -63,6 +63,7 @@ body{
     width: 320px;
     height: auto;
     z-index: 1;
+    transition-duration: 750ms;
 }
 .abyssimg:hover{
     transition-duration: 750ms;
