@@ -136,7 +136,7 @@ body{
 }
 
 .column-right {
-    color: white;
+   width: unset;
 }
 
 /* Responsive behavior */
