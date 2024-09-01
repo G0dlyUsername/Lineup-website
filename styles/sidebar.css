@@ -5,7 +5,7 @@ body{
 .navbar2{
     width: max-content;
     height: auto;
-    position: absolute;
+    float: left;
 }
 .navbar2 ul{
     list-style-type: none;
@@ -55,14 +55,14 @@ body{
     }
 }
 .abyssselectimg{
-    padding-top: 50px;
-    margin-left: 500px;
+    transition-duration: 750ms;
 }
 .abyssimg{
     border-radius: 15px;
     width: 320px;
     height: auto;
     z-index: 1;
+    transition-duration: 750ms;
 }
 .abyssimg:hover{
     transition-duration: 750ms;
@@ -89,4 +89,59 @@ body{
     margin-left: 15px;
     margin-top: -180px;
     z-index: -1;
+    pointer-events: none;
+}
+
+
+.zoom-image {
+    width: 320px;
+    height: 200px; /* Set your desired height */
+    overflow: hidden; /* Ensure the image doesn't exceed the container */
+}
+
+.zoom-image img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.zoom-image:hover img {
+    transform: scale(1.1); /* Zoom in the image */
+}
+
+
+
+/* Container for the two columns */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual column styles */
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Column background colors for clarity */
+.column-left {
+    width: max-content;
+    max-width: 240px;
+}
+
+.column-right {
+   width: unset;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
