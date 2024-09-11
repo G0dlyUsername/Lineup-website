@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: rgb(87, 87, 87);
+    text-decoration: none;
 }
 .navbar2{
     width: max-content;
